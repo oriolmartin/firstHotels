@@ -7,8 +7,10 @@
   <body>
     <h1><%= title %></h1>
     <p>Welcome to <%= title %></p>
+    <form type="post" action="index.ejs">
     <input type="text" ng-model="test" />
     <%= test %>
     <input type="submit" value="Actualitzar" />
+      </form>
   </body>
 </html>
